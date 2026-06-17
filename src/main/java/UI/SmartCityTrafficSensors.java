@@ -26,8 +26,8 @@ public class SmartCityTrafficSensors {
 
     private String DistrictName;
     private String SensorType;
-    private LocalDate MeasurmentData;
-    private int MeasurmentHour;
+    private LocalDate MeasurementDate;
+    private int MeasurementHour;
     private int VehicleCount;
     private double AverageSpeedKmh;
     private int AirQualityIndex;

@@ -11,11 +11,11 @@
         </property>
 
         <property name="hibernate.connection.url">
-            jdbc:sqlserver://185.119.119.126:1433;databaseName=demo;encrypt=true;trustServerCertificate=true
+            jdbc:sqlserver://185.119.119.126:1433;databaseName=dijkstradb;encrypt=true;trustServerCertificate=true
         </property>
 
-        <property name="hibernate.connection.username">helena</property>
-        <property name="hibernate.connection.password">helena</property>
+        <property name="hibernate.connection.username">dijkstra</property>
+        <property name="hibernate.connection.password">dijkstra</property>
 
         <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
 

@@ -64,6 +64,7 @@ public class Window extends JFrame {
         // Button Actions
         pdfButton.addActionListener(e -> exportPDF());
         jsonButton.addActionListener(e -> exportJSON());
+
     }
 
     private ChartPanel buildChart(List<SmartCityTrafficSensors> data) {
