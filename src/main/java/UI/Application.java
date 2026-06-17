@@ -10,6 +10,7 @@ public class Application {
         //Gruppe 3 - Helena, Sama, Lena, Antonia
 
         Window window = new Window();
+        window.setVisible(true);
 
     }
 

@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 @Data
@@ -23,7 +24,7 @@ public class SmartCityTrafficSensors {
 
     private String DistrictName;
     private String SensorType;
-    private Date MeasurmentData;
+    private LocalDate MeasurmentData;
     private int MeasurmentHour;
     private int VehicleCount;
     private double AverageSpeedKmh;
